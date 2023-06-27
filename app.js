@@ -18,7 +18,7 @@ app.get('/contact', (req, res) => {
 });
 
 // Start the server
-const defined_port = process.env.PORT;
-app.listen(defined_port, () => {
+// const defined_port = process.env.PORT;
+app.listen(process.env.PORT, () => {
   console.log(`Server is listening on port ${port}`);
 });
