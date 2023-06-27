@@ -18,7 +18,7 @@ app.get('/contact', (req, res) => {
 });
 
 // Start the server
-const port = 80;
+const port = 443;
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
