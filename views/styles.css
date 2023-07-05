@@ -1,109 +1,32 @@
-/* CSS for the responsive navigation bar */
+/* Written by Kyle Randolph for kylerandolph.com */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 100px;
-  background-color: #333;
-  z-index: 100;
-}
-
-nav ul {
-  display: flex;
-}
-
-
-
-nav ul li {
-  list-style: none;
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.burger {
-  display: none;
-  cursor: pointer;
-}
-
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 5px;
+  background-color: black; 
 }
 
 .container {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #000;
+  background: #000;
+}
+html body {
+  background-color: #000;
+  color: #f4ffff
 }
 
-@media screen and (max-width: 1024px) {
-  .desktop-nav {
-    display: none;
-  }
+.icon,
+h5 {
+    color: #007bff;
+}
 
-  .mobile-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 
-  .mobile-nav .logo {
-    margin-right: auto;
-  }
-
-  .burger {
-    display: block;
-  }
-
-  .nav-links {
-    display: none;
-  }
-
-  .nav-active .nav-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav-active .nav-links li {
-    opacity: 0;
-    animation: navLinkFade 0.5s ease forwards;
-  }
-
-  .icon,
-  h5 {
-      color: green;
-  }
-    
-  .links a:hover,
-  .icon:hover {
-      background-color: green;
-      color: white;
-      transition: 0.4s all linear;
-  }
-
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(-50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
+.links a:hover,
+.icon:hover {
+    background-color: green;
+    color: white;
+    transition: 0.4s all linear;
 }
