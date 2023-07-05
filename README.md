@@ -1,17 +1,12 @@
 # Personal Website (kylerandolph.com)
----
-title: Personal Website built on Node
-description: My personal website built using Node, Javascript, HTML, CSS, and Express
-tags:
-  - http
-  - nodejs
-  - javascript
----
 
 ## Running Locally
+
 ### Prerequisites
 - Install dependencies:
-  - `yarn`, `express` 
+  - `yarn`, `express`
+ 
+### Setup
 1. Clone the repo `git clone <REPO_URL>`
 2. Change directory to the repository `cd ~/personal-website`
 3. Install packages `yarn install`
