@@ -30,3 +30,84 @@ h5 {
     color: white;
     transition: 0.4s all linear;
 }
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.contact-info {
+  text-align: right;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.section-content {
+  margin-left: 20px;
+}
+
+table {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+th {
+  background-color: #222;
+}
+.date {
+  font-weight: bold;
+}
+.experience-item {
+  margin-bottom: 20px;
+}
+.experience-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.experience-company {
+  font-weight: bold;
+}
+.experience-duration {
+  font-style: italic;
+}
+.responsibilities {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.education-item {
+  margin-bottom: 10px;
+}
+.education-degree {
+  font-weight: bold;
+}
+.education-institution {
+  font-style: italic;
+}
